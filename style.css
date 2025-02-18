@@ -1,0 +1,100 @@
+.header {
+    text-align: center;
+    font-size: 55px;
+    background-color: red;
+    color: yellow;
+}
+.master {
+    display: flex;
+    justify-content: space-around;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+body {
+    background-color: white;
+}
+h2,h3,h4,h5 {
+    font-style: italic;
+}
+footer{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.element-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.category {
+    width: 150px;
+    flex: 1 1 30%; /* Ändra flex-värden för att förhindra att de tar upp för mycket plats */
+    text-align: center; /* Lägg till text-centrering för bättre utseende */
+    margin: 10px; /* Lägg till marginal för att skapa lite utrymme mellan kategorierna */
+}
+.category img {
+    width: 60%;
+}
+.footer .category img {
+    width: 50%; /* Gör bilderna hälften så stora */
+    max-width: 50px; /* Om du vill sätta ett maxmått, justera detta efter behov */
+    margin-top: 10px; /* Lägg till lite utrymme mellan text och bild */
+}
+#water {
+    color: blue;
+}
+#fire {
+    color: orange;
+}
+#grass {
+    color: lightgreen;
+}
+#electric {
+    color: rgb(243, 218, 28);
+}
+#steel {
+    color: silver;
+}
+#rock {
+    color: darkgray;
+}
+#ground {
+    color: rgb(121, 57, 2);
+}
+#fighting {
+    color: darkred;
+}
+#dragon {
+    color: darkblue;
+}
+#ice {
+    color: aqua;
+}
+#bug {
+    color: aquamarine;
+}
+#flying {
+    color: rgb(143, 223, 250);
+}
+#ghost {
+    color: blueviolet;
+}
+#dark {
+    color: black;
+}
+#posion {
+    color: darkmagenta;
+}
+#fairy {
+    color: lightpink;
+}
+#psychic {
+    color: palevioletred;
+}
+#normal {
+    color: rgb(46, 45, 43);
+}
